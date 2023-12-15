@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'half';
+  src: url('/fonts/half.ttf') format('truetype');
+}
+
+@keyframes fadeOut {
+  0% {
+    visibility: visible;
+  }
+
+  100% {
+    visibility: hidden;
+  }
+}
+
+.animated-alphabet  {
+  animation: fadeOut 3s linear;
+  animation-fill-mode: forwards;
+}
+
+
+.half-font--input {
+  width: 100%;
+  font-family: half;
+  font-size: 100px;
+}
